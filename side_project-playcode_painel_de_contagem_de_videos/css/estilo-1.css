@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700');
+body {
+    background-color: #18788c;
+}
+header#cabecalho h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+    margin-top: 18px;
+    margin-left: 20px; 
+}
+section#corpo {
+    margin: 0px auto;
+}
+section#corpo h3 {
+    margin: -30px 90px 10px 900px;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 2px 3px rgba(0,0,0,.5);
+}
+table#videos {
+    margin: 10px auto;
+}
+table#videos td.celula {
+    padding: 10px;
+}
+table#videos img#tumbl {
+    border: 3px groove #8e92bf;
+    box-shadow: 3px 2px 5px black;
+}
